@@ -4,11 +4,13 @@
   "description": "blockchain back-end",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "nodemon ./src/index.js",
+    "prod": "node ./src/index.js"
   },
   "author": "yevhenii moskalenko",
   "license": "ISC",
   "dependencies": {
-    "crypto-js": "^4.1.1"
+    "crypto-js": "^4.1.1",
+    "elliptic": "^6.5.4"
   }
 }
